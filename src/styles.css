@@ -1,3 +1,128 @@
+header{
+
+    display:grid;
+    grid-template-rows: 1fr 20fr;
+    padding: 0;
+    margin: 0;
+    /* height: 100vw; */
+
+
+}
+
 #content{
-    background-color: red;
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top ; 
+    margin: 0;
+}
+
+
+#home-header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+#home-pg{
+    margin: auto ;
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 300px;
+    text-wrap: wrap;
+    font-size: 22px;
+
+}
+
+
+
+
+.menu-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+
+
+}
+
+
+.card{
+    width: 400px;
+    height: 250px;
+    background-color:lightgrey;
+    border:1px solid grey;
+    justify-content:center;
+    text-align: center;    
+    margin-top:30px;
+
+
+}
+
+.card:hover{
+    background-color:rgb(218, 216, 216);
+}
+
+.card > img{
+    margin: 0 auto;
+    width: 180px;
+    height: 120px;
+}
+
+
+.item-name{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.item-price{
+    font-weight: 600;
+}
+
+.cards{
+    margin: 0 auto;
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+    place-content: center center;
+
+
+}  
+
+
+.form{
+    width: 600px;
+    height: inherit;
+    margin: auto;
+    color: black;
+}
+
+.order-btn{
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-weight: 300;
+}
+
+.contact-header{
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    text-align: center;
+    color: black;
+    
+
 }
